@@ -32,4 +32,11 @@
         padding: 1rem;
         gap: 1rem;
     }
+    /* footer */
+    footer{
+        padding: 2rem;
+    }
+    footer>img{
+        max-width:384px ;
+    }
 }

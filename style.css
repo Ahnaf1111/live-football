@@ -110,3 +110,26 @@ line-height: 60px; /* 125% */
 .hero-img>img{
     width: 100%;
 }
+/* footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.social-icons>img{
+    height: 32px;
+    width: 32px;
+}
+.social-icons{
+    display: flex;
+    gap: 1rem;
+}
+footer>img{
+    max-width:484px ;
+}
+footer>p{
+    margin-top: 1rem;
+}
+
