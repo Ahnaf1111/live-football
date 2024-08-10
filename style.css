@@ -8,6 +8,7 @@
 /* primary styles */
 section{
     max-width: 1440px;
+    margin: 0 auto;
 }
 .btn-primary{
     background: #E02C6D;
@@ -17,3 +18,27 @@ section{
     border: 0;
 }
 /* header style start */
+header{
+    background: #2D25A0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+.hamburger{
+    display: none;
+    color: #FFF;
+}
+nav>ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1rem;
+    
+}

@@ -1,0 +1,12 @@
+.hamburger{
+    display: block;
+}
+nav>ul{
+    display: none;
+}
+nav{
+    padding-top: 0;
+}
+header{
+    padding: 1rem;
+}
