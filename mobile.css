@@ -22,5 +22,9 @@
     .banner-text>h1{
         font-size: 3rem;
     }
+    /* card */
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
 
 }
