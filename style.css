@@ -42,3 +42,25 @@ nav>ul>li>a{
     font-size: 1rem;
     
 }
+/* banner style */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+}
+.banner-text{
+    max-width: 485px;
+}
+.banner-text>h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 80px;
+}
+.banner-img{
+    width: 656px;
+}
+.banner-img>img{
+    width: 100%;
+}

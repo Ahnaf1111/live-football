@@ -1,12 +1,26 @@
-.hamburger{
-    display: block;
-}
-nav>ul{
-    display: none;
-}
-nav{
-    padding-top: 0;
-}
-header{
-    padding: 1rem;
+@media screen and (max-width:576px){
+    .hamburger{
+        display: block;
+    }
+    nav>ul{
+        display: none;
+    }
+    nav{
+        padding-top: 0;
+    }
+    header{
+        padding: 1rem;
+    }
+    /* banner */
+    .banner{
+        flex-direction: column;
+    }
+    .banner-img{
+        width: auto;
+        margin-top: 3rem;
+    }
+    .banner-text>h1{
+        font-size: 3rem;
+    }
+
 }
